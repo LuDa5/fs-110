@@ -1,0 +1,49 @@
+body {
+    font-family: "Montserrat" sans-serif;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+} 
+             /* Header */
+.header-logo {
+        font-size: 18px; 
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color: #111111;
+}
+.header-logo-ital {
+font-style:italic
+}
+.header-menu-linc {
+font-weight:  500;
+font-size:  14px;
+ line-height: 1.14;
+ letter-spacing: -0.02em;
+color:#111111;
+
+              /* Hero */
+
+.hero {
+     bakground-color: rgb(62, 59, 53); */
+}
+
+.hero-title {
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 1.21;
+            letter-spacing: -0.03em;
+            color: #FFFFFF;
+    }
+
+    .hero-primayry-btn {}
+
+    .hero-secondary-btn {}
+
+    .hero-scroll-btn {}
