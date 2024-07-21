@@ -1,7 +1,7 @@
 body {
     font-family: "Montserrat" sans-serif;
     }
-}
+
 
 ul {
     list-style-type: none;
@@ -9,41 +9,56 @@ ul {
 a {
     text-decoration: none;
 } 
-             /* Header */
+/* --------------HEADER---------------- */
+        
 .header-logo {
-        font-size: 18px; 
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: -0.03em;
-        text-align: left;
-        color: #111111;
+    font-size: 18px; 
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #111111;
 }
 .header-logo-ital {
-font-style:italic
+    font-style: italic
 }
 .header-menu-linc {
-font-weight:  500;
-font-size:  14px;
- line-height: 1.14;
- letter-spacing: -0.02em;
-color:#111111;
+    font-weight:  500;
+    font-size:  14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color:#111111;}
 
-              /* Hero */
+/* -------------------HERO-------------------- */
 
 .hero {
-     bakground-color: rgb(62, 59, 53); */
+    background-color: rgb(208, 127, 255);
 }
 
 .hero-title {
-            font-size: 28px;
-            font-weight: 500;
-            line-height: 1.21;
-            letter-spacing: -0.03em;
-            color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+    .hero-primayry-btn {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
     }
 
-    .hero-primayry-btn {}
+    .hero-secondary-btn {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;  
+    }
 
-    .hero-secondary-btn {}
-
-    .hero-scroll-btn {}
+    .hero-scroll-btn {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    }
