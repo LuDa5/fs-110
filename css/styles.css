@@ -9,6 +9,36 @@ ul {
 a {
     text-decoration: none;
 } 
+.taitle {
+    font-size: 24px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.03em;
+        color: #111111;
+        text-align: center;
+        text-transform: uppercase;
+}
+.orang {
+    color: #FD9222;
+    ;
+}
+.tecst {
+        font-size: 14px;
+            line-height: 18px;
+            letter-spacing: -0.02em;
+            color: #111111;
+
+}
+.menu-linc {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: -0.02em;
+        color: #111111;
+}
+button {
+    cursor: pointer;
+}
 /* --------------HEADER---------------- */
         
 .header-logo {
@@ -23,16 +53,12 @@ a {
     font-style: italic
 }
 .header-menu-linc {
-    font-weight:  500;
-    font-size:  14px;
-    line-height: 1.14;
-    letter-spacing: -0.02em;
-    color:#111111;}
+    }
 
 /* -------------------HERO-------------------- */
 
 .hero {
-    background-color: rgb(208, 127, 255);
+    background-color: rgb(138, 255, 127);
 }
 
 .hero-title {
@@ -48,7 +74,10 @@ a {
     font-weight: 600;
     color: #FFFFFF;
     }
-
+.hero-primayry-btn:hover,
+.hero-primayry-btn:focus {
+    color: #FD9222;
+}
     .hero-secondary-btn {
     font-size: 14px;
     font-weight: 600;
@@ -62,3 +91,167 @@ a {
     letter-spacing: -0.03em;
     color: #FFFFFF;
     }
+
+    /* --------------PRICE----------------- */
+
+   .price {
+    background: #1E1823;
+   }
+
+   .price-list {}
+
+   .price-item {}
+
+   .price-h {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21.94px;
+        text-align: left;
+        color:  #FFFFFF;;
+   }
+
+   .piece-p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.07px;
+        letter-spacing: -0.02em;
+        color: #FFFFFFB2;
+   }
+
+   .price-item-one {}
+
+   .price-item-two {}
+
+/* -----------------SENSATION---------------- */
+.sensation {}
+
+.sensation-it-all {
+       
+}
+
+
+.sensation-at-simply {}
+
+/* ------------------PICTURES--------------------- */
+
+.pictures {}
+
+.pictures-list {}
+
+.pictures-item {}
+
+.pictures-title {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+}
+.black {
+    color: #111111;
+}
+/* ---------------------HOW-------------------------- */
+
+.how {
+    text-transform: uppercase;
+}
+
+.how-h {
+   
+}
+
+
+.how-title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+color: #111111;
+}
+
+.how-list {}
+
+.how-item {}
+
+.how-title-sss {
+    
+}
+
+
+/* -------------------LOVED------------------------- */
+
+.loved {}
+
+.loved-h {
+ 
+}
+.loved-list {}
+
+.loved-item {
+    text-align: center;
+}
+
+.loved-title {}
+
+.loved-p {
+text-align: center;
+}
+
+.loved-btn {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21.94px;
+        color: #111111;
+}
+.loved-image {
+
+}
+
+/* -------------------FOOTER--------------------- */
+
+.footer {
+    background: #1E1823;
+}
+
+.footer-title {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+
+.footer-p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        color: #FFFFFF;
+}
+
+.footer-address {}
+
+.footer-address-list {}
+
+.footer-address-item {
+ 
+}
+
+.footer-nav {}
+
+.footer-nav-list {}
+
+.footer-nav-item {}
+
+.footer-nav-p {
+        color: #FFFFFF;
+}
+.footer-tel {
+    font-style: normal;
+    color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        text-align: center;
+
+}
