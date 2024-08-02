@@ -94,7 +94,7 @@ p,h1,h2,h3,h4,h5,h6 {
     align-items: center;
 }
 .header-logo-ital {
-    font-style: italic
+    font-style: italic;
 }
 .header-menu-linc {
     /* display: block;
@@ -107,15 +107,25 @@ p,h1,h2,h3,h4,h5,h6 {
     padding-top: 24px;
     padding-bottom: 32px;
 }
+
+.header-soc-icon {
+fill: transparent;
+stroke: #111111;
+}
+
+
 /* -------------------HERO-------------------- */
 
 .hero {
    padding-bottom: 72px;
 }
 .hero-container {
-background-color:  rgb(121, 115, 115) ;
 padding: 380px 40px 40px;
 border-radius: 30px;
+background-image: linear-gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.4)), url(../images/chocolate.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
 } 
 
 .hero-title {
@@ -137,12 +147,16 @@ border-radius: 30px;
     border-radius: 100px;
     background-color: #FD9222;
     margin-right: 14px;
+    transition-property: color #FD9222, background-color #FCF1E0;
+    transition-duration: (300ms);
     }
+
 .hero-primayry-btn:hover,
 .hero-primayry-btn:focus {
     color: #FD9222;
     background-color:  #FCF1E0;
 }
+
     .hero-secondary-btn {
     font-size: 14px;
     font-weight: 600;
@@ -151,6 +165,8 @@ border-radius: 30px;
     padding: 14px 40px;
         border: 1px solid #FFFFFF;
         border-radius: 100px;
+        transition-property: color #FD9222, background-color #FCF1E0;
+            transition-duration: (300ms);
     }
 
     .hero-secondary-btn:hover,
@@ -240,7 +256,14 @@ border-radius: 30px;
     border: 1px solid #FD9222;
     border-radius: 15px;
     padding: 28px;
+    position: relative;
 }
+
+.pictures-item:hover .pictures-item-text {
+    transform: translate(0);
+    opacity: 1;
+}
+
 
 .pictures-title {
         font-size: 14px;
@@ -255,6 +278,31 @@ border-radius: 30px;
 }
 .pictures-item-img {
     margin-bottom: 36px;
+}
+    .choco { 
+        background-color:#FD9222;;
+
+}
+.nuts {
+    border: none;
+    background-color: #1E1823;;
+}
+.pictures-item-text {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    color: #111111;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        text-align: left;
+        padding: 20px;
+        height: 100%;
+        opacity: 0;
+        transform: rotateY(180deg);
+transition: transform 300ms linear, opacity 300ms linear;
 }
 /* ---------------------HOW-------------------------- */
 
@@ -369,4 +417,75 @@ color: #FFFFFF;
         letter-spacing: -0.02em;
         text-align: center;
 
+}
+
+/* ---------------------BACKDROP-------------------- */
+
+.backdrop {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(127, 255, 212, 0.416);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------------------------MODAL------------------------- */
+
+.modal{
+    width: 517px;
+    height: 694px;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    padding: 40px;
+    position: absolute;
+}
+
+.modal-clic-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+.modal-taitle {
+    max-width: 298px;
+    height: 56px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.modal-input {
+    width: 100%;
+ height: 68px; 
+ border-radius: 13px;
+ border:1.5px solid #27252516; 
+ padding-left: 62px;
+ padding-right: 24px;
+
+}
+/* .modal-input:hover {
+border-color: #FD9222;
+} */
+.modal-input:focus {
+border-color: #FD9222;
+}
+.modal-input::placeholder {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.94px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: #4040404D;
+}
+.modal-icon {
+    fill: transparent;
+    stroke: #404040;
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.modal-wrap {
+    position: relative;
+    margin-bottom: 18px;
 }

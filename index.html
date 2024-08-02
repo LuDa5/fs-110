@@ -17,15 +17,22 @@
     <div class="container header-container ">
     <nav class="header-nav">
 <a class="header-logo" href=""><span class="header-logo-ital">SIMPLY</span> CHOCOLATE<img src="./Vector.svg" alt="logo icon"></a>
-<ul class="header-menu-list menu-list">
-    <li class="header-menu-item"><a class="header-menu-linc menu-linc" href="">Home</a></li>
+<ul class="header-soc-list">
+  <li class="header-menu-item"><a class="header-menu-linc menu-linc" href="">Home</a></li>
     <li class="header-menu-item"><a class="header-menu-linc menu-linc" href="">How it’s made?</a></li>
     <li class="header-menu-item"><a class="header-menu-linc menu-linc" href="">Chocolate is loved</a></li>
 </ul>
     </nav>
     <ul class="header-soc-list">
-        <li class="header-soc-item"><a class="header-soc-linc" href="" target="-blank" rel="noopener noreferrer">insta</a></li>
-        <li class="header-soc-item"><a class="header-soc-linc" href="" target="-blank" rel="noopener noreferrer">tvit</a></li>
+        <li class="header-soc-item"><a class="header-soc-linc" href="" target="-blank" rel="noopener noreferrer"><svg class="header-soc-icon" width="24" height="24">
+            <use hrf="./images/symbol-defs.svg#icon-instagram"></use>
+        </svg></a>
+        </li>
+        <li class="header-soc-item"><a class="header-soc-linc" href="" target="-blank" rel="noopener noreferrer">
+        <svg class="header-soc-icon" width="24" height="24">
+            <use hrf="./images/symbol-defs.svg#icon-tviter"></use>
+        </svg>
+        </a></li>
     </ul>
     </div>
 </header> 
@@ -78,20 +85,32 @@
     finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one
     exceptional taste sensation.</p>
             <ul class="pictures-list">
-                <li class="pictures-item">
+                <li class="pictures-item choco">
                     <img class="pictures-item-img" src="./png/png1.png" width="206" height="160" alt="milk chocolate">
+                    <p class="pictures-item-text">Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk. It is the most consumed type of
+                    chocolate. Chocolate was originally sold and consumed as a beverage in pre-Columbian times. Although four-fifths of all
+                    milk chocolate is sold in the United States and Europe.</p>
                     <h3 class="pictures-title">mILK CHOCOLATE</h3>
                 </li>
-                <li class="pictures-item">
+                <li class="pictures-item milk">
                     <img class="pictures-item-img" src="./png/png2.png" width="206" height="160" alt="milk">
+                   <p class="pictures-item-text">Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for young
+                mammals (including breastfed human infants) before they are able to digest solid food.Early-lactation milk, which is
+                called colostrum, contains antibodies that strengthen the immune system.</p>
                     <h3 class="pictures-title black">Milk</h3>
                 </li>
-                <li class="pictures-item">
-                    <img class="pictures-item-img" src="./png/png3.png" width="206" height="160" alt="nuts">
+                <li class="pictures-item nuts">
+                    <img class="pictures-item-img " src="./png/png3.png" width="206" height="160" alt="nuts">
+                   <p class="pictures-item-text">Almonds, pistachios, and walnuts are some types of nuts that contain healthy nutrients. When eaten as part of a
+                nutrient-dense diet, these 9 nuts may offer benefits such as reducing your risk of heart disease. They’re a good source
+                of fiber, healthy fats, and plant protein. Plus, they’re great on their own.</p>
                     <h3 class="pictures-title">nuts</h3>
                 </li>
-                <li class="pictures-item">
+                <li class="pictures-item sweet">
                     <img class="pictures-item-img" src="./png/png4.png" width="206" height="160" alt="sweet chocolate">
+                   <p class="pictures-item-text">Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to gain an understanding of this type
+                of chocolate is to compare it to a different type of chocolate. Semisweet is darker than milk chocolate. In a taste
+                comparison, it has a slightly bitter taste whereas milk chocolate is sweeter and more mellow.</p>
                     <h3 class="pictures-title black">sEMI - SWEET CHOCOLATE</h3>
                 </li>
             </ul>
@@ -161,5 +180,33 @@
     </nav>
    </div>
 </footer>
+<div class="backdrop">
+    <div class="modal">
+        <button class="modal-clic-btn">X</button>
+        <p class="taitle modal-taitle">LEAVE A REVIEW ABOUT <span class="orang">OUR CHOCOLATE</span></p>
+    <form>
+<div class="modal-wrap">
+    <input type="text" class="modal-input" name="usr-name" placeholder="Name" required>
+<svg class="modal-icon" width="24" height="24">
+    <use href="./images/symbol-defs (2).svg#icon-user"></use>
+</svg>
+</div> 
+<div class="modal-wrap">
+    <input type="text" class="modal-input" name="usr-email" placeholder="Email">
+<svg class="modal-icon" width="24" height="24">
+    <use href="./images/symbol-defs (2).svg#icon-mail"></use>
+</svg>
+</div>
+<div class="modal-wrap">
+    <input type="text" class="modal-input" name="usr-tel" placeholder="Phone number" required>
+<svg class="modal-icon" width="24" height="24">
+    <use href="./images/symbol-defs (2).svg#icon-phone"></use>
+</svg></div>
+
+<button type="submit">Send</button>
+    </form>
+    
+    </div>
+</div>
 </body>
 </html>
