@@ -19,18 +19,18 @@
 <a class="header-logo" href=""><span class="header-logo-ital">SIMPLY</span> CHOCOLATE<img src="./Vector.svg" alt="logo icon"></a>
 <ul class="header-soc-list">
   <li class="header-menu-item"><a class="header-menu-linc menu-linc" href="">Home</a></li>
-    <li class="header-menu-item"><a class="header-menu-linc menu-linc" href="">How it’s made?</a></li>
-    <li class="header-menu-item"><a class="header-menu-linc menu-linc" href="">Chocolate is loved</a></li>
+    <li class="header-menu-item"><a class="header-menu-linc menu-linc" href="#made">How it’s made?</a></li>
+    <li class="header-menu-item"><a class="header-menu-linc menu-linc" href="#loved">Chocolate is loved</a></li>
 </ul>
     </nav>
     <ul class="header-soc-list">
         <li class="header-soc-item"><a class="header-soc-linc" href="" target="-blank" rel="noopener noreferrer"><svg class="header-soc-icon" width="24" height="24">
-            <use hrf="./images/symbol-defs.svg#icon-instagram"></use>
+            <use href="./images/symbol-defs.svg#icon-instagram"></use>
         </svg></a>
         </li>
         <li class="header-soc-item"><a class="header-soc-linc" href="" target="-blank" rel="noopener noreferrer">
         <svg class="header-soc-icon" width="24" height="24">
-            <use hrf="./images/symbol-defs.svg#icon-tviter"></use>
+            <use href="./images/symbol-defs.svg#icon-twitter"></use>
         </svg>
         </a></li>
     </ul>
@@ -44,9 +44,11 @@
         of pure delight!
         </h1>
         <div class="hero-butons">
-        <button type="button" class="hero-primayry-btn">Buy now</button>
+        <button type="button" class="hero-primayry-btn" data-modal-open >Buy now</button>
         <a href="#made" class="hero-secondary-btn">How it’s made</a>
-        <a href="" class="hero-scroll-btn">scroll down</a>
+        <a href="#footer" class="hero-scroll-btn">scroll down <span> <svg class="hero-scroll-icon" width="22" height="22">
+            <use href="./images/symbol-defs.svg#icon-smale"></use>
+        </svg></span></a>
         </div>
         </div>
     </section>
@@ -55,22 +57,18 @@
             <h2 hidden>gud</h2>
             <ul class="price-list">
                 <li class="price-item">
-                    <img src="./Group.svg" alt="logo icon">
                     <h3 class="price-h">Unsurpassed taste</h3>
                     <p class="piece-p">Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that
                     simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of
                     chocolate bliss</p>
                 </li>
-                <li class="price-item-one">
-                    <img src="./Group1.svg" alt="logo icon">
+                <li class="price-item">
                     <h3 class="price-h">Affordable price</h3>
                     <p class="piece-p">Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats.
                     Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and
                     indulge in affordable luxury today.</p>
-                   
                 </li>
-                <li class="price-item-two">
-                    <img src="./Group2.svg" alt="logo icon">
+                <li class="price-item">
                     <h3 class="price-h">Own production</h3>
                     <p class="piece-p">We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting
                     the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
@@ -119,22 +117,38 @@
     <section id="made" class="how">
         <div class="container">
             <h2 class="how-h taitle">hOW IT’S <span class="orang">made?</span> </h2>
-                <img src="./png/image1.jpg" width="600" height="400" alt="Try our chocolates today and discover the perfect balance of flavor">
-                    <h3 class="how-title">Try our chocolates today and discover the perfect balance of flavor</h3>
-                    <ul class="how-list">
-                       
-                        <li class="how-item"><p class="how-title-sss tecst">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</p></li>
-                        <li class="how-item"><p class="how-title-sss tecst">At the same time, prepare a water bath. Melt the butter on it.</p></li>
-                        <li class="how-item"><p class="how-title-sss tecst">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes
-                        uniform and silky.</p></li>
-                        <li class="how-item"><p class="how-title-sss">Heat the mixture over low heat, letting it barely boil.</p></li>
-                        <li class="how-item">
-                            <p class="how-title-sss">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</p>
-                        </li>
-                    </ul>
+            <div class="how-wrap"><img src="./png/image1.jpg" width="600" height="400"
+                alt="Try our chocolates today and discover the perfect balance of flavor">
+                <div class="how-content">
+            <h3 class="how-title">Try our chocolates today and discover the perfect balance of flavor</h3>
+
+            <ul class="how-list">   
+                <li class="how-item">
+                    <p class="how-title-sss tecst">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa
+                        powder.</p>
+                </li>
+                <li class="how-item">
+                    <p class="how-title-sss tecst">At the same time, prepare a water bath. Melt the butter on it.</p>
+                </li>
+                <li class="how-item">
+                    <p class="how-title-sss tecst">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone
+                        spatula so that the mass becomes
+                        uniform and silky.</p>
+                </li>
+                <li class="how-item">
+                    <p class="how-title-sss tecst">Heat the mixture over low heat, letting it barely boil.</p>
+                </li>
+                <li class="how-item">
+                    <p class="how-title-sss tecst">Pour the chocolate into special containers (can be replaced with ice molds). Allow to
+                        cool and harden.</p>
+                </li>
+            </ul>
+</div>
+        </div>
+               
         </div>
     </section>
-    <section class="loved">
+    <section id="loved" class="loved">
        <div class="container">
             <h2 class="loved-h taitle"> <span class="orang">chocolate</span> is loved</h2>
             <ul class="loved-list">
@@ -161,46 +175,53 @@
     </section>
 </main>
 
-<footer class="footer">
+<footer id="footer" class="footer">
    <div class="container">
+    <div class="footer-wrap">
         <p class="footer-title"><span class="orang">Chocolate</span>  a delicious cure for a bad day</p>
-        <p class="footer-p">Contact us</p>
+      <div class="footer-contact-wrap">  <p class="footer-p">Contact us</p>
         <address class="footer-address">
     <ul class="footer-address-list">
         <li class="footer-address-item"><a +380 class="footer-tel" href="tel:+380684439426">+380 (68) 443-94-26</a></li>
         <li class="footer-address-item"><a simplychoc@gmail.com class="footer-tel" href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a></li>
     </ul>
         </address>
+        </div>
+        </div>
         <nav class="footer-nav"></a>
         <ul class="footer-nav-list menu-list">
             <li class="footer-nav-item"><a class="footer-nav-p menu-linc" href="">Home</a></li>
-            <li class="footer-nav-item"><a class="footer-nav-p menu-linc" href="">How it’s made?</a></li>
-            <li class="footer-nav-item"><a class="footer-nav-p menu-linc" href="">Chocolate is loved</a></li>
+            <li class="footer-nav-item"><a class="footer-nav-p menu-linc" href="#made">How it’s made?</a></li>
+            <li class="footer-nav-item"><a class="footer-nav-p menu-linc" href="#loved">Chocolate is loved</a></li>
         </ul>
     </nav>
    </div>
 </footer>
-<div class="backdrop">
+<div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button class="modal-clic-btn">X</button>
+        <button class="modal-clic-btn" data-modal-close>X
+            <svg class="modal-x-close" width="14" height="14">
+            <use href="./images/symbol-defs.svg#icon-x-close"></use>
+        </svg>
+    </button>
         <p class="taitle modal-taitle">LEAVE A REVIEW ABOUT <span class="orang">OUR CHOCOLATE</span></p>
     <form>
 <div class="modal-wrap">
     <input type="text" class="modal-input" name="usr-name" placeholder="Name" required>
 <svg class="modal-icon" width="24" height="24">
-    <use href="./images/symbol-defs (2).svg#icon-user"></use>
+    <use href="./images/symbol-defs.svg#icon-user"></use>
 </svg>
 </div> 
 <div class="modal-wrap">
     <input type="text" class="modal-input" name="usr-email" placeholder="Email">
 <svg class="modal-icon" width="24" height="24">
-    <use href="./images/symbol-defs (2).svg#icon-mail"></use>
+    <use href="./images/symbol-defs.svg#icon-mail"></use>
 </svg>
 </div>
 <div class="modal-wrap">
     <input type="text" class="modal-input" name="usr-tel" placeholder="Phone number" required>
 <svg class="modal-icon" width="24" height="24">
-    <use href="./images/symbol-defs (2).svg#icon-phone"></use>
+    <use href="./images/symbol-defs.svg#icon-phone"></use>
 </svg></div>
 
 <button type="submit">Send</button>
@@ -208,5 +229,6 @@
     
     </div>
 </div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
