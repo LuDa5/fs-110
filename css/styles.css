@@ -611,11 +611,19 @@ margin-bottom: 24px;
 } */
 
 .modal-clic-btn {
-
+position: absolute;
+right: 24px;
+top: 24px;
+width: 28px;
+height: 28px;
+border: none;
+background-color: transparent;
+border-radius: 50%;
+cursor: pointer;
 }
 
 .modal-x-close {
-color: #111111;
+stroke: #111111;
 
 }
 .modal-taitle {
