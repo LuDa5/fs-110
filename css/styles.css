@@ -19,7 +19,7 @@ a {
 img {
     display: block;
 }
-
+/* 
 .taitle {
     font-size: 24px;
         font-weight: 600;
@@ -54,6 +54,20 @@ img {
     display: flex;
     gap: 24px;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 button {
     cursor: pointer;
@@ -715,6 +729,8 @@ resize: none;
 .modal-check-text a {
     text-decoration: underline;
     color: #FD9222;
+    padding-left: 3px;
+
 }
 
 .modal-check-text span {
@@ -723,7 +739,216 @@ resize: none;
     border: 1px solid #11111124;
     border-radius: 6px;
     margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .modal-check:checked + .modal-check-text span {
     background-color: #fb9222;
+    border: none;
+    fill: #FFFFFF;
 }
+
+.check-icon {
+    fill: #111111;
+}
+
+.modal-btn {
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 17.07px;
+text-align: left;
+background-color: #FD9222;
+color: #FFFFFF;
+border: 1px solid transparent;
+border-radius: 100px;
+padding: 14px 40px;
+cursor: pointer; 
+transition: background-color 300ms linear, color 300ms linear;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #FFFFFF;
+    color:#FD9222;
+    border-color: #fb9222;
+ 
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .about-us {
+    margin-top: -38px;
+    min-height: 775px;
+  } */
+/*   
+  .container {
+      box-sizing: border-box;
+      width: 375px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin: 0 auto;
+  }
+  .about-content { 
+      box-sizing: border-box;
+      width: 335px;
+      padding: 40px 20px 335px;
+      background-color: #fbfbfb;
+      border-radius: 24px;
+      margin-top: -35px;
+  
+  }
+  .about-wrap {
+      margin-top: -295px;
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  
+  
+  .about-us {
+  }
+  .about-title {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 100%;
+      letter-spacing: -0.02em;
+      color: #1b414b;
+      max-width: 295px;
+      margin-bottom: 40px;
+   
+  }
+  
+  .about-subtitle{
+      font-family: var(--font-family);
+      font-weight: ;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: -0.02em;
+      color: #1b414b;
+      margin-bottom: 20px;
+  
+  
+   
+  }
+  .about-text {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 117%;
+      letter-spacing: -0.02em;
+      color: #040306;
+      opacity: 0.4;
+  }
+  .about-list {
+  }
+  
+  
+  
+  
+  
+  @media screen and (min-width: 768px) {
+      .container {
+          width: 768px;
+          padding-left: 32px;
+          padding-right: 32px;
+          margin: 0 auto;
+      }
+      .about-content {
+          width: 704px;
+          padding: 50px 136px 244px 32px;
+      
+      }
+  
+      .about-title{
+  font-size: 48px;
+  max-width: 536px;
+  margin-bottom: 50px;
+  
+  }
+  
+  .about-subtitle{
+      font-size: 23px;
+  margin-bottom: 20px;
+  }
+  .about-text {
+  font-size: 13px;
+  line-height: 115%;
+  
+  }
+  .about-wrap {
+      margin-top: -194px;
+  }
+  
+  .about-list {
+      max-width: 389px;
+  }
+  }
+  
+  @media screen and (min-width: 1280px) {
+  
+      .container {
+          width: 1280px;
+          padding-left: 50px;
+          padding-right: 50px;
+          margin: 0 auto;
+   
+      }
+      .about-content { 
+          display: flex;
+          width: 1180px;
+          padding: 50px;
+          padding-bottom: 415px;
+         
+      
+      }
+      .about-title{
+          max-width: 537px;
+          margin-bottom: 50px;
+       }
+       .about-wrap {
+          margin-top: -315px;
+      }
+  
+  
+      .about-list {
+          min-width: 354px;
+          margin-left: auto;
+      }
+  }
+  
+  @media screen and (min-width: 1440px) {
+  
+      .container {
+          width: 1440px;
+  
+      }
+  
+      .about-content { 
+          display: flex;
+          width: 1340px;
+          padding-bottom: 438px;
+         
+      
+      }
+      .about-wrap {
+          margin-top: -338px;
+      }
+      .about-list {
+  
+      } */
